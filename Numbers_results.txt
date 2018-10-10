@@ -1,0 +1,67 @@
+======================
+| PROVIDER: "SunJCE" |
+======================
+SYMMETRIC KEY
+   Cipher   : AES/CBC/PKCS5Padding
+   Avg Time : 168.8 ms
+   Cipher   : DES/CBC/PKCS5Padding
+   Avg Time : 378.6 ms
+   Cipher   : Blowfish/CBC/PKCS5Padding
+   Avg Time : 201.8 ms
+STREAM CIPHERS
+   Cipher   : AES/CFB8/NoPadding
+   Avg Time : 1536.0 ms
+   Cipher   : DES/CFB8/NoPadding
+   Avg Time : 2662.4 ms
+   Cipher   : RC4
+   Avg Time : 44.2 ms
+ASYMMETRIC KEY
+   Cipher     : RSA
+   Avg Time   : 2.9577433333333336 minutes
+HASHING
+   Mode: MD5
+   Avg Time: 25.0 ms
+   Mode: SHA1
+   Avg Time: 30.0 ms
+   Mode: SHA512
+   Avg Time: 35.0 ms
+=============================
+| PROVIDER: "Bouncy Castle" |
+=============================
+SYMMETRIC KEY
+   Cipher   : AES/CBC/PKCS5Padding
+   Avg Time : 193.0 ms
+   Cipher   : DES/CBC/PKCS5Padding
+   Avg Time : 202.4 ms
+   Cipher   : Blowfish/CBC/PKCS5Padding
+   Avg Time : 150.0 ms
+STREAM CIPHERS
+   Cipher   : AES/CFB8/NoPadding
+   Avg Time : 1539.2 ms
+   Cipher   : DES/CFB8/NoPadding
+   Avg Time : 1598.0 ms
+   Cipher   : RC4
+   Avg Time : 54.0 ms
+ASYMMETRIC KEY
+   Cipher     : RSA
+   Avg Time   : 3.16849 minutes
+HASHING
+   Mode: MD5
+   Avg Time: 23.6 ms
+   Mode: SHA1
+   Avg Time: 44.0 ms
+   Mode: SHA512
+   Avg Time: 27.0 ms
+==================================
+| PROVIDER: "FlexiCore Provider" |
+==================================
+ASYMMETRIC KEY
+   Cipher     : RSA
+   Avg Time   : 2.9652833333333333 minutes
+HASHING
+   Mode: MD5
+   Avg Time: 31.4 ms
+   Mode: SHA1
+   Avg Time: 36.0 ms
+   Mode: SHA512
+   Avg Time: 36.0 ms
